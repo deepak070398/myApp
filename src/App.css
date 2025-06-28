@@ -27,7 +27,64 @@
 .App-link {
   color: #61dafb;
 }
-
+.rdrInRange {
+  color: #E1F1FB !important;
+  opacity: 1;
+}
+.rdrDay .rdrDayNumber span {
+  color: black !important;
+}
+.rdrDayToday:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span:after {
+  background: #D91A26 !important;
+}
+.rdrDayToday .rdrDayNumber span:after {
+  background: #D91A26 !important;
+  height: 4px !important;
+  width: 4px !important;
+  bottom: 0px !important;
+  border-radius: 50px !important;
+}
+.rdrStaticRangeLabel {
+  color: #098FDB;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px !important;
+  letter-spacing: 0.156px !important;
+}
+.rdrInputRangeInput {
+  color: #098FDB;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px !important;
+  letter-spacing: 0.156px !important;
+}
+.rdrInputRange span {
+  color: #098FDB;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px !important;
+  letter-spacing: 0.156px !important;
+}
+.rdrMonthName {
+  color: #098FDB !important;
+}
+.rdrWeekDay {
+  color: #414141 !important;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600 !important;
+}
+.rdrMonthAndYearPickers select {
+  font-family: 'Open Sans' !important;
+  color: #414141 !important;
+}
+/* .rdrStartEdge {
+  border-bottom-right-radius: 1.042em;
+  border-top-right-radius: 1.042em;
+} */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
